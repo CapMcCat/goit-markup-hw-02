@@ -12,4 +12,55 @@
 
 body {
   font-family: var(--text-font);
+  color: var(--primary-color);
+  background-color: var(--main-bgc);
 }
+
+/* ============HEADER============ */
+
+.logo-link {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.header-logo-text {
+  color: var(--primary-color);
+}
+
+.navigation-list {
+  list-style-type: none;
+}
+
+.navigation-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-list {
+  list-style-type: none;
+}
+
+.email-link,
+.phone-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143x;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+/* ============HEADER END============ */

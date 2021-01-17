@@ -1,3 +1,15 @@
+:root {
+  --text-font: "Roboto", sans-serif;
+  --titel-font: "Raleway", sans-serif;
+  --primary-color: #212121;
+  --secondary-color: #757575;
+  --secondary-light-color: #ffffff;
+  --accent-color: #2196f3;
+  --main-bgc: #ffffff;
+  --secondary-dark-bgc: #2f303a;
+  --secondary-light-bgc: #f5f4fa;
+}
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--text-font);
 }

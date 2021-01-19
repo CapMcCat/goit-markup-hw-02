@@ -12,6 +12,8 @@
 
 body {
   font-family: var(--text-font);
+  font-weight: 400;
+  font-size: 14px;
   color: var(--primary-color);
   background-color: var(--main-bgc);
 }
@@ -27,10 +29,6 @@ body {
   text-decoration: none;
 }
 
-.logo-link:hover {
-  text-decoration: underline;
-}
-
 .header-logo-text {
   color: var(--primary-color);
 }
@@ -41,7 +39,6 @@ body {
 
 .navigation-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--primary-color);
@@ -69,7 +66,6 @@ body {
 .phone-link {
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.143x;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
@@ -81,6 +77,10 @@ body {
 
 /* ============HERO SECTION============ */
 
+.hero-section {
+  background: var(--secondary-dark-bgc);
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -89,7 +89,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-light-color);
-  background: var(--secondary-dark-bgc);
 }
 
 .modal-button {
@@ -122,15 +121,13 @@ body {
 
 .features-list-item-title {
   font-weight: 700;
-  font-size: 14px;
+
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .features-list-item-text {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
@@ -152,6 +149,11 @@ body {
 /* ============WHAT WE DO SECTION END============ */
 
 /* ============OUR TEAM SECTION ============ */
+
+.our-team-section {
+  background-color: var(--secondary-light-bgc);
+}
+
 .our-team-title {
   font-weight: 700;
   font-size: 36px;
@@ -171,7 +173,6 @@ body {
 }
 
 .our-team-item-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 0.842;
   letter-spacing: 0.03em;
@@ -196,8 +197,6 @@ body {
 
 .map-link {
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 0.583;
   letter-spacing: 0.03em;
   color: var(--secondary-light-color);
@@ -242,10 +241,6 @@ body {
   color: var(--primary-color);
 }
 
-.portfolio-item-link:hover {
-  background-color: var(--accent-color);
-}
-
 .portfolio-item-titel {
   font-weight: 700;
   font-size: 18px;
@@ -254,7 +249,6 @@ body {
 }
 
 .portfolio-item-category {
-  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
